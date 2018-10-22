@@ -1,0 +1,19 @@
+{
+
+    "jsonrpc": "2.0",
+
+    "method": "getConfiguration",
+
+    "params": {
+
+        "device ID": "123456789",
+
+        "applicationProductId": "com.timeinc.amazon.si",
+
+        "dmVersion": "1.6",
+
+    },
+
+    "id": 1
+
+}

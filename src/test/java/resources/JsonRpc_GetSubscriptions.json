@@ -1,0 +1,33 @@
+{
+    "jsonrpc":"2.0",
+   "method":"getSubscriptionIssues",
+    "params": {
+        "dmVersion":"1.5",
+        "authentication": {
+            "password": "<password>",
+"customer ID":"<tcs user>",
+"deviceId":"000001",  
+"applicationProductId":"com.timeinc.amazon.si" 
+ },"action":"getSubscriptionIssues",
+ "issues":[{
+"id":155, "name":"March 06, 2011"
+ },{
+ "id":156, "name":"March 04, 2011"
+ },{
+ "id":157, "name":"March 03, 2011"
+ },{
+"id":158, "name":"March 08, 2011"
+ },{
+ "id":159,"name":"February 09, 2011"
+ },{
+ "id":160,"name":"February 10, 2011"
+ },{
+ "id":161,"name":"March 01, 2011"
+ },{
+"id":162,"name":"February 21, 2010"
+},{
+ "id":163,"name":"October 18, 2010"
+}]
+},
+"id":1
+}
