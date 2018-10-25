@@ -674,24 +674,14 @@ public class restAssuredUtils extends baseUtil {
 					String requestParamater = field.getKey();
 					String extractRequestParameter;
 					if (base.parameterMappingProperties.containsKey(requestParamater)) { // Performing
-																							// a
-																							// Parameter
-																							// Mapping
-																							// and
-																							// fetching
-																							// Value
-																							// from
-																							// Request
-																							// Parameter
+						// a Parameter  Mapping and fetching // Value // from // Request
+						// Parameter 									
 						extractRequestParameter = base.parameterMappingProperties.get(requestParamater).toString();
 						String requestFinalValue = base.requestParameters.get(extractRequestParameter).toString();
 						params.put(field.getKey(), requestFinalValue);
 					} else {
-						String requestFinalValue = base.requestParameters.get(requestParamater).toString(); // fetching
-																											// Value
-																											// from
-																											// Request
-																											// Parameter
+						String requestFinalValue = base.requestParameters.get(requestParamater).toString(); // fetching Value from  Request Parameter
+																											
 						params.put(field.getKey(), requestFinalValue);
 					}
 
